@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "mybucket" {
   bucket = "mybucket"
-  acl = "public"
+  acl = "public" 
 
   server_side_encryption_configuration {
     rule {
